@@ -1,0 +1,95 @@
+#BizMemberView{
+  width: 1024px;
+}
+#BizMemberView *,#BizMemberView *:before,#BizMemberView *:after {
+    box-sizing: inherit;
+    
+  }
+  
+  #BizMemberView .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  #BizMemberView  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  #BizMemberView .about-section {
+    padding: 25px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  #BizMemberView .container {
+    padding: 0 16px;
+  }
+  
+  #BizMemberView .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #BizMemberView .title {
+    color: grey;
+  }
+  
+  #BizMemberView .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #BizMemberView .button:hover {
+    background-color: #555;
+  }
+  
+  #BizMemberView img {
+      width: 100%;
+  }
+
+  @media screen and (max-width: 650px)
+  {
+    #BizMemberView{
+      width: 100%;
+    }
+    #BizMemberView  .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 0px;
+    }
+    #BizMemberView .title {
+      color: grey;
+      font-size: 12px;
+    }
+    #BizMemberView p {
+      font-size: 10px;
+    }
+    #BizMemberView h3 {
+      margin: 3px;
+    }
+    #BizMemberView .column {
+      
+      width: 45%;
+      margin-bottom: 16px;
+      padding: 0 2px;
+    }
+    #BizMemberView .row {
+      display: inline-flex;
+      justify-content: center;
+      width: 100%;
+    }
+    #BizMemberView #email {
+      font-size: 1;
+    }
+  }

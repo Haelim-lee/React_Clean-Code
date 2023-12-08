@@ -1,0 +1,157 @@
+.MyInfoBox{
+  margin-bottom: 11vh;
+  display: inline-flex;
+}
+
+.프로필_이미지 {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.사진파일_배경 {
+position:relative;
+display: flex;
+justify-content: center;
+height: 60px;
+overflow: hidden;
+cursor: pointer;
+}
+
+.사진파일_이미지 {
+  padding:0 0 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.사진파일_히든 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  opacity: 0;
+  display: none;
+  z-index: 1;
+  filter: alpha(opacity=0);
+  -ms-filter:alpha(opacity=0);
+  cursor: pointer;
+}
+flie-upload-button{
+   cursor: pointer;
+}
+
+.비밀번호찾기 .비밀번호찾기:active,.비밀번호찾기:link,.비밀번호찾기:hover,.비밀번호찾기:visited{
+  color: black;
+}
+.회원가입 .비밀번호찾기:active,.회원가입:link,.회원가입:hover,.회원가입:visited{
+  color: black;
+}
+.RadioGroup{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.LoginTable li{
+  list-style-type: none;
+  line-height: 40px;
+  justify-content: space-around;
+}
+.TabPageBig li{
+  list-style-type: none;
+}
+
+
+#JoinPopupView{
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#UserInfoLayout{
+  width: 40%;
+}
+#UserInfoLayout b{
+  float: left;
+  padding-left: 5px;
+}
+/* Full-width input fields */
+ #JoinPopupView input[type=text],#JoinPopupView  input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: 15px;
+}
+
+#JoinPopupView input[type=text]:focus, #JoinPopupView input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  font-size: 15px;
+}
+
+#JoinPopupView hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 15px;
+}
+
+/* Set a style for all buttons */
+#JoinPopupView button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#JoinPopupView button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+#JoinPopupView .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+#JoinPopupView .cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+#JoinPopupView .container {
+  padding: 16px;
+}
+
+/* Clear floats */
+#JoinPopupView .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px)
+ {
+  .비밀번호찾기 .비밀번호찾기:active,.비밀번호찾기:link,.비밀번호찾기:hover,.비밀번호찾기:visited{
+    color: black;
+  }
+  .LoginTable li{
+    list-style-type: none;
+    line-height: 40px;
+  }
+ } 

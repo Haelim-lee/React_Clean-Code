@@ -1,0 +1,148 @@
+#Board_View{
+  margin-bottom: 150px;
+}
+.SubNav{
+    width: 400px; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+}
+.SubNav li {
+  float: left;
+  
+}
+.SubNavLeft{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  
+}
+.SubNavLeft li {
+  float: left;
+  
+}
+.TabControl{
+  width: 1024px; 
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.TabPageBig{
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+}
+.TabPage{
+  justify-content: center;
+  align-items: center;
+}
+.TabPageBig li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Change the link color to #111 (black) on hover */
+.TabPageBig li a:hover {
+  color: #a8ada8;
+}
+.TabPageBig .TabActive {
+  color: #4CAF50;
+  font-weight: 800;
+}
+
+.TabPage li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Change the link color to #111 (black) on hover */
+.TabPage li a:hover {
+  color: #a8ada8;
+}
+.TabPage .TabActive {
+  color: #4CAF50;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1024px)
+ {
+  .SubNav{
+    width: 280px; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+}
+    .Screen{
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+    }
+    .TabControl{
+      width: 100%; 
+      margin: 0;
+      padding: 0;
+      align-items: baseline;
+    }
+    .TabPage li a {
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      color: black;
+    }
+    .TabPage{
+      justify-content: center;
+    }
+ } 
+ @media screen and (max-width: 500px)
+ {
+  .SubNav{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 350px; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+}
+    .Screen{
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+
+    }
+    .TabControl{
+      width: 100%; 
+      margin: 0;
+      padding: 0;
+      align-items: baseline;
+    }
+    .TabPage li a {
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      color: black;
+    }
+    .TabPage{
+      justify-content: center;
+      width: 100%;
+    }
+ } 

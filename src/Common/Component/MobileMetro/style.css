@@ -1,0 +1,46 @@
+.Nav{
+ width: 1024px; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+.Nav li {
+  float: left;
+}
+
+.Nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+.Nav li a:hover {
+  background-color: #111;
+}
+.Nav .active {
+  border-color:  darkseagreen;
+  border-bottom-style: solid;
+  border-width: 10px;
+  background-color: #282c34;
+}
+
+@media screen and (max-width: 768px)
+ {
+    .Nav{
+      width: 100%; 
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+ }

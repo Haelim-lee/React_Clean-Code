@@ -1,0 +1,30 @@
+.ThumbnailViewer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  height: 400px;
+  width: 280px;
+}
+#NewPhotoThumbnail{
+  margin: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+#ThumbnailTitle{
+  background-color: #333;
+  color: white;
+}
+
+@media screen and (max-width: 1024px)
+ {
+  .비밀번호찾기 .비밀번호찾기:active,.비밀번호찾기:link,.비밀번호찾기:hover,.비밀번호찾기:visited{
+    color: black;
+  }
+  .LoginTable li{
+    list-style-type: none;
+    line-height: 40px;
+  }
+ } 

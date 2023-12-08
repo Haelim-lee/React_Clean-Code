@@ -1,0 +1,950 @@
+.MobileLink .MobileLink:active,.MobileLink:link,.MobileLink:hover,.MobileLink:visited{
+  color: black;
+}
+.개인정보{
+  display:inline-flex;
+  flex-direction:row;
+  justify-items:center;
+  width:250px;
+  height:80px;
+  font-size:20px;
+  margin:0px;
+  margin-bottom:13px;
+  }
+  .계정정보{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  text-align: left;
+  width:65%;
+  height:80px;
+  margin:0px;
+  font-size:15px;
+  padding: 5px;
+  }
+  .프로필사진{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  width:35%;
+  height:80px;
+  }
+
+.NoticeMasterPanel > a, a:link, a:visited,a:active,a:hover{
+  color: black;
+}
+.new_pixBox{
+  display: flex;
+  flex-direction: column;
+}
+.App-header  a,.App-header  a:link{
+  color: white;
+}
+.NewsLink:link,.NewsLink:visited,.NewsLink:active,.NewsLink:hover{
+  color: black;
+  text-decoration: none;
+}
+.HeaderLink:link,.HeaderLink:visited,.HeaderLink:active,.HeaderLink:hover{
+  color: black;
+  text-decoration: none;
+}
+.LoginTable{
+  border-spacing: 0px;
+  width: 250px;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(241, 241, 241, 0.445);
+}
+.Finder{
+  width: 520px;    
+  border-color: #333;  
+  border-top-width: 2px;   
+  border-left-width: 2px;
+  border-right-width: 2px;   
+  border-bottom-width: 2px;   
+}
+.FinderBox{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 99%;
+  align-items: center;
+}
+.FinderBox >h1{
+  margin: 0px;
+}
+.FinderBox > table{
+  margin: 0px;
+  border-spacing: 0px;
+  padding: 0;
+}
+.FinderBox  > table > tr > td{
+ padding: 0;
+}
+
+.FinderBox button{
+  width: 50px;
+  height: 42px;
+  background-color: #333;
+  border-color: #333;  
+  border-top-width: 1px;   
+  border-left-width: 0px;
+  border-right-width: 1px;   
+  border-bottom-width: 1px;   
+
+  border-style: solid;
+  padding-bottom: 10px;
+  }
+.User{
+  width: 250px;    
+font-size: 15pt;        
+}
+.UserName{
+  width: 250px;     
+  font-size: 15pt;        
+}
+.Password{
+  width: 250px;     
+  font-size: 15pt;        
+}
+.BirthDay{
+  width: 250px;     
+  font-size: 15pt;        
+}
+.CheckPassword{
+  width: 250px;     
+  font-size: 15pt;        
+}
+.Email{
+  width: 250px;     
+  font-size: 15pt;        
+}
+.비밀번호찾기{
+  font-size: 8pt;
+  margin-left: 9px;
+}
+.회원가입{
+  font-size: 8pt;
+  margin-right: 5px;
+}
+.회원관련창{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LoginButton{
+  width: 250px;
+  height: 40px;
+  background-color:  #333;
+  color: #fff;
+  font-size: 15px;
+}
+.CenterBox{
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.Theme{
+  border-width: 1px;
+}
+.UserInfo{
+  width: 260px;
+}
+.pix{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pix img{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #bdbdbd;
+  width: "80px";
+}
+
+.downbutton{
+  width: 300px;
+  height: 60px;
+  align-content: center;
+}
+.Chat{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Board{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Camera{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Camcorder{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.RemoteSupport{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cloud{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Kakao{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  align-items: center;
+  justify-content: center;
+}
+.Blog{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  align-items: center;
+  justify-content: center;
+}
+.Wrapper {
+  align-items: center;
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  overflow:overlay;
+}
+.CompanyMasterPanel {
+  width: 1024px;
+  background-color: #304c5f;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11vh;
+}
+.HelpMasterPanel {
+  align-items: center;
+  justify-content: center;
+  width: 1024px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11vh;
+}
+
+.HomeMasterPanel {
+  width: 1024px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11vh;
+}
+.PortfolioMasterPanel {
+  border-color: silver;
+  border-style: solid;
+  border-width: 1px;
+  padding: 30px;
+  align-items: flex-start;
+  text-align: left;
+  width: 1024px;
+  margin-bottom: 11vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.PortfolioMasterPanel img{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin-bottom: 20px;
+}
+.ProductMasterPanel {
+  align-items: flex-start;
+  text-align: left;
+  width: 1024px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11vh;
+}
+.DownloadMasterPanel {
+  align-items: flex-start;
+  text-align: left;
+  width: 1024px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11vh;
+}
+.NoticeMasterPanel {
+  display: flex;
+  height: 100%;
+  width: 1024px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1300px;
+}
+hr {
+  align-items: flex-start;
+  justify-content: left;
+}
+  
+.TextTitle{
+  text-decoration: underline;
+}
+
+.공지사항_헤더{
+  margin: 0px;
+  margin-left: 5px;
+  text-align: left;
+}
+.공지사항_게시판{
+  border-width: 0px;
+  font-weight: 100;
+}
+
+.게시판_컨테이너{
+  position: relative;
+  width: 350PX;
+  font-size: 18px;
+  border: 1;
+  border-style: solid;
+  border-color: white;
+}
+.공지사항_게시판 td{
+  border-style: solid;
+  border-left:1px solid #ffffff00;
+  border-right:1px solid #ffffff00;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #2b010100;
+  text-align: left;
+  font-size: 15px;
+  }
+  .공지사항_게시판 td a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    height: 23px;
+    white-space: nowrap;
+    display: block; 
+    
+    }
+.공지사항_게시판 th{
+  border-style: solid;
+  border-left:1px solid #ffffff00;
+  border-right:1px solid #ffffff00;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #14040400;
+  color:white;
+  background-color: #333;
+  font-weight: 100;
+  font-size: 15px;
+  }
+.QA_게시판{
+  width: 1024px;
+  border-spacing: 0px;
+}
+.QA_게시판 td{
+  border-style: solid;
+  border-left:1px solid #ffffff00;
+  border-right:1px solid #ffffff00;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #2b010100;
+  text-align: left;
+  }
+.QA_게시판 th{
+  border-style: solid;
+  border-left:1px solid silver;
+  border-right:1px none silver;;
+  border-top:1px solid silver;;
+  border-bottom:1px solid silver;;
+  color:black;
+  
+  }
+
+
+.댓글_목록 {
+  width: 100%;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  line-height: 20px;
+  word-wrap: break-word;      /* IE 5.5-7 */
+  white-space: pre-wrap;      /* current browsers */
+}
+
+.댓글 li {
+  width: 100%;
+  word-wrap: break-word;      /* IE 5.5-7 */
+  white-space: pre-wrap;      /* current browsers */
+}
+
+.댓글_div {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: inline-flex;
+  justify-content: space-between;
+  word-wrap: break-word;
+  word-break:break-all;
+  width: 100%;
+}
+
+.댓글_시간_div{
+  color:grey;
+}
+
+.댓글쓰기_버튼 {
+  min-width: 50px;
+  line-height: 55px;
+  vertical-align: text-bottom;
+  border-style: none;
+}
+
+.댓글삭제_버튼 {
+ min-width: 50px;
+ max-height: 24px;
+ margin-left: 10px;
+}
+
+.댓글_textarea{
+	width:100%; 
+	height:60px; 
+  resize:none;/* 크기고정 */ 
+  /* resize: horizontal; // 가로크기만 조절가능 
+  resize: vertical;  세로크기만 조절가능 */
+  margin-right:5px ;
+  border-style: dotted;
+
+}
+
+
+.작성자_입력기{
+  width: 100px;
+}
+.내용_입력기{
+  width: 320px;
+}
+.컨텐츠{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1024px;
+  margin-bottom: 15vh;
+
+}
+
+@media screen and (min-width: 600px) and (max-width : 1024px)
+ {
+  .공지사항_헤더{
+    margin: 0px;
+    margin-left: 5px;
+    text-align: center;
+  } 
+  .작성자_입력기{
+    width: 50px;
+  }
+  .내용_입력기{
+    width: 100%;
+  }
+  .컨텐츠{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 15vh;
+  }
+  .게시판_컨테이너{
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    border: 1;
+    border-style: solid;
+    border-color: white;
+  }
+  .공지사항_게시판{
+    border-width: 0px;
+    font-weight: 100;
+    width:100%;
+  }
+  .QA_게시판{
+    border-width: 0px;
+  }
+  .QA_게시판 th{
+    border-style: solid;
+    border-left:1px solid silver;
+    border-right:1px none silver;;
+    border-top:1px solid silver;;
+    border-bottom:1px solid silver;;
+    color:black;
+    font-size: 10px;
+    }
+    .QA_게시판 td{
+    font-size: 8px;
+    }
+  .HomeMasterPanel {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .HelpMasterPanel {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11vh;
+  }
+  
+  .ProductMasterPanel {
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-bottom: 11vh;
+  }
+  .PortfolioMasterPanel {
+    margin:0px;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 11vh;
+  }
+    .CompanyMasterPanel{
+      width: 100%; 
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+      margin-bottom: 11vh;
+    }
+    .NoticeMasterPanel {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 40vh;
+    }
+    .Wrapper {
+      align-items: inherit;
+      width: 100%;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      
+    }
+    .DownloadMasterPanel {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 11vh;
+    }
+    .DownInfo{
+      display:flex;
+      flex-direction: row;
+      width: 300px;
+    }
+    .downbutton{
+      width: 300px;
+      height: 60px;
+      
+    }
+    .Chat{
+      width: 35%;
+      height: 35%;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Board{
+      width: 35%;
+      height: 35%;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Camera{
+      width: 35%;
+      height: 35%;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Camcorder{
+      width: 35%;
+      height: 35%;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .RemoteSupport{
+      width: 35%;
+      height: 35%;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Cloud{
+      width: 35%;
+      height: 35%;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Kakao{
+      width: 35%;
+      height: 35%;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      align-items: center;
+      justify-content: center;
+    }
+    .Blog{
+      width: 35%;
+      height: 35%;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      align-items: center;
+      justify-content: center;
+    }
+    .pix img{
+      border-width: 1px;
+      border-style: solid;
+      border-color: #bdbdbd;
+      width: 12.5%;
+    }
+
+ }
+ @media screen and (max-width: 650px)
+ {
+   
+  .공지사항_헤더{
+    margin: 0px;
+    margin-left: 5px;
+    text-align: center;
+  } 
+   #MobilelTabPage a,#MobilelTabPage a:link,#MobilelTabPage a:visited,#MobilelTabPage a:active,#MobilelTabPage a:hover{
+     color: black;
+     text-decoration: none;
+   }
+   a:active,#MobilelTabPage a:hover{
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  .작성자_입력기{
+    width: 50px;
+  }
+  .내용_입력기{
+    width: 100%;
+  }
+    .QA_게시판{
+    border-width: 0px;
+    width:85%;
+  }
+  .QA_게시판 th{
+    border-style: solid;
+    border-left:1px solid silver;
+    border-right:1px none silver;;
+    border-top:1px solid silver;;
+    border-bottom:1px solid silver;;
+    color:black;
+    font-size: 10px;
+    }
+    .QA_게시판 td{
+      font-size: 8px;
+      }
+  .컨텐츠{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15vh;
+  }
+  .게시판_컨테이너{
+    position: relative;
+    width: 90%;
+    font-size: 15px;
+    border: 1;
+    border-style: solid;
+    border-color: white;
+  
+  }
+  .공지사항_게시판{
+    border-width: 0px;
+    width:90%;
+  }
+  .HomeMasterPanel {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11vh;
+  }
+  .HelpMasterPanel {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11vh;
+  }
+  .ProductMasterPanel {
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11vh;
+  }
+  .PortfolioMasterPanel {
+    margin:0px;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 11vh;
+  }
+  .CompanyMasterPanel{
+    width: 100%; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    margin-bottom: 11vh;
+  }
+    .NoticeMasterPanel {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 40vh;
+    }
+    .Wrapper {
+      align-items: initial;
+      width: 100%;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    .DownloadMasterPanel {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 11vh;
+
+    }
+    .DownInfo{
+      display:flex;
+      flex-direction: row;
+      width: 300px;
+    }
+    .downbutton{
+      width: 300px;
+      height: 60px;
+      
+    }
+    .Chat{
+      width: 40%;
+      height: 25vh;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Board{
+      width: 40%;
+      height: 25vh;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Camera{
+      width: 40%;
+      height: 25vh;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Camcorder{
+      width: 40%;
+      height: 25vh;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .RemoteSupport{
+      width: 40%;
+      height: 25vh;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Cloud{
+      width: 40%;
+      height: 25vh;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      margin-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Kakao{
+      width: 40%;
+      height: 25vh;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      align-items: center;
+      justify-content: center;
+    }
+    .Blog{
+      width: 40%;
+      height: 25vh;
+      display: flex;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #000000;
+      align-items: center;
+      justify-content: center;
+    }
+    .pix img{
+      border-width: 1px;
+      border-style: solid;
+      border-color: #bdbdbd;
+      width: 25%;
+    }
+ }
+ 
+ 
+ 

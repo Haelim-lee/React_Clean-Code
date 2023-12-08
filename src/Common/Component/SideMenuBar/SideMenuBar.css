@@ -1,0 +1,34 @@
+#SideMenuPanel{
+    background-color: white;
+    width:300px;
+    height:100%;
+    justify-content:left;
+    display:flex;
+    text-align:left;
+    font-weight:bold;
+}
+#SideMenuPanel ul, #myUL 
+{
+    list-style-type:none;
+}
+#SideMenuPanel #myUL {
+    margin:0;
+    padding:0;
+}
+#SideMenuPanel .caret::before {
+    content:"￦25b6 ";
+    color:black;
+    display:inline-block;
+    margin-right: 6px;
+}
+#SideMenuPanel .caret-down::before {
+Transform:rotate(90deg);
+}
+#SideMenuPanel .nested 
+{
+    display: none;
+}
+#SideMenuPanel .active 
+{
+    display:  block;
+}

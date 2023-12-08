@@ -1,0 +1,25 @@
+.MasterLayout{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: center;
+}
+.ToolBox{
+  width: 800px;
+  border-width: 3px;
+}
+.Calendar{
+  width: 400px;
+  height: 300px;
+  border-color: silver;
+  border-width: 3px;
+  border-style: solid;
+}
+.Plan{
+  width: 400px;
+  height: 300px;
+  border-color: silver;
+  border-width: 3px;
+  border-style: solid;
+
+}
